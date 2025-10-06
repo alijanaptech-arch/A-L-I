@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rameez Motors </title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing:border-box;
+
+        }
+        body{
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+
+        }
+        header{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding:  15px 20px;
+        }
+        nav {
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            position: relative;
+
+        }
+        .logo{
+            font-size: 24px;
+            font-weight:bold ;
+        }
+        #toggle{
+            display: none;
+        }
+        label{
+            display: inline-block;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        label span {
+            display: block;
+            width: 30px;
+            height: 3px;
+            background: white;
+            margin: 5px 0;
+            transition: 0.3s;
+        }
+        .menu{
+            max-height: 0;
+            overflow: hidden;
+            background-color: #444;
+            transition: max-height 4s ease;
+        }
+        .menu a {
+            display: block;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-top: 1px solid #555;
+        }
+        .menu a:hover {
+            background-color: #555;
+        }
+        /* when checkbox is checked , show menu  */
+        #toggle:checked + label + .menu {
+            max-height: 500px ; /* enough to show all links */
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            gap: 30px;
+
+        }
+        nav ul li{
+            display: inline;
+        }
+        nav ul li a {
+            color: rgb(0, 255, 64);
+            text-decoration: none;
+            font-size: 18px;
+            position: relative;
+            padding: 5px;
+            transition: color 1s ease;
+        }
+        nav ul li a::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 2px;
+            background-color: rgb(250, 245, 245);
+            transition: width 1s ease ;
+
+        }
+        nav ul li a:hover{
+            color: rgb(0, 60, 255);
+
+        }
+        nav ul li a:hover::after{
+            width: 100%;
+        }
+        .para{
+            background-color: rgb(154, 154, 255);
+            padding: 10vh;
+            margin: 10vh;
+            border: 5px solid black;
+        }
+        .footer{
+            background-color: #9fff9f;
+            padding: 10vh;
+        }
+        .logo{
+            animation: rameez 5s;
+        }
+        @keyframes rameez {
+            0% {opacity: 0.1;}
+            100% {opacity: 1.0;}
+        }
+        #image1{
+            animation: rameez1 8s;
+        }
+        @keyframes rameez1 {
+            0% {opacity: 0.2; transform: rotate(0deg) scale(0.1);}
+            100% {opacity: 1.0; transform: rotate(360deg) scale(1.0);}
+        }
+    
+        
+
+
+
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="logo"> Bienvenido a rameez motors</div> 
+        <nav>
+            <input type="checkbox" id="toggle">
+            <label for="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="menu">
+            <ul>
+                <li><A href="http://127.0.0.1:5500/HOME.html">Home</A></li>
+                <li><A href="http://127.0.0.1:5500/contact.html">Contact</A></li>
+                <LI><A href="http://127.0.0.1:5500/about.html">About Us </A></LI>
+                <li><A href="http://127.0.0.1:5500/buyhere.html">buy here</A></li>
+            </ul>
+        </div>
+        </nav>
+        
+
+
+        
+
+    </header>
+    <main>
+        
+        <img src="hayabusa 2.jpg" width="100%" height="900px" id="image1">
+        <div class="para">
+        <h2> Rameez motorcycles</h2>
+        <p>At Rameez Motors, we offer a wide range of  motorcycles to suit your needs. From the sleek and stylish
+            GSX-R1000 to the rugged and reliable Bandit 1200, we have something for everyone. Our motorcycles are
+            designed to provide a smooth and enjoyable riding experience, with cutting-edge technology and advanced
+            features that make them the perfect choice for riders of all levels.💖💗💓🧡💗💛💚 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam et ex illo optio quas magnam asperiores deleniti delectus, repellat excepturi quia hic quis blanditiis saepe. Vitae in adipisci consectetur nesciunt?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ad eius numquam voluptates velit, inventore necessitatibus quaerat similique excepturi animi aliquid rerum dolore optio qui mollitia error, possimus reprehenderit aspernatur molestias recusandae omnis vel esse molestiae. Itaque eius dolore vel ullam totam fugiat necessitatibus explicabo in eum mollitia, sit aspernatur eos sed suscipit cumque rerum blanditiis quaerat minus. Labore rem, minus ipsam, adipisci ipsum et cum incidunt repellat itaque culpa officia temporibus. Vitae repellendus doloremque modi, hic voluptatibus, magni nisi possimus placeat, nesciunt eveniet praesentium. Sed libero molestiae pariatur tempora. Maiores cum alias deleniti voluptate eligendi voluptatem officiis amet qui aliquam sunt doloribus expedita, cupiditate harum veniam pariatur sint reprehenderit quae quod natus, a totam modi eos dolorum et. Accusantium nihil ullam magni. Tempora animi suscipit sapiente, vero nulla molestiae explicabo dolor ex ratione at! Corrupti nesciunt libero asperiores eius earum. Voluptatum iste repudiandae sint facilis soluta laudantium provident, et, quia tempore libero non architecto debitis a! Cum, molestiae officiis! Expedita, ab exercitationem! Nemo molestiae voluptatem impedit modi, vero, natus deleniti a quo et sapiente possimus provident nulla voluptas atque rerum amet eos rem exercitationem dolorum mollitia. Aliquid temporibus quas, molestias perspiciatis quam eos perferendis. Explicabo harum magnam quos sed provident ut voluptatem, numquam totam tempore illo odio adipisci esse repellat nam alias odit vero incidunt consequuntur culpa nulla minus quasi velit error. Reiciendis eum illo iusto maxime, aliquam mollitia vel laborum quasi facere adipisci corrupti sunt deleniti doloribus asperiores distinctio optio debitis voluptas consectetur quam labore aspernatur ullam numquam? Quibusdam cumque quasi, suscipit a eum et optio, nesciunt magni delectus nihil esse saepe laboriosam tempore, voluptatibus vitae harum hic. Velit qui beatae neque debitis blanditiis? Ipsa recusandae veniam aut reiciendis quaerat neque, expedita temporibus maiores nesciunt aperiam beatae modi, totam, eligendi quisquam voluptate ut? Nisi, cum at sint quod ipsum, laborum officia repellat libero reprehenderit consectetur maxime illo ipsa earum voluptate sequi voluptates deserunt, nobis aliquid fugiat molestiae consequuntur quasi? Ipsam cupiditate illo eaque, voluptatem neque alias. Doloribus, beatae. Consequuntur nostrum doloribus soluta, libero earum consequatur dicta sit, enim at consectetur iure adipisci cum suscipit delectus ipsa voluptatibus iste nisi tempora recusandae impedit nemo nulla. Officiis molestias sunt deserunt nulla quas. Quibusdam dignissimos dolor unde nesciunt commodi ad quaerat esse at est explicabo. Iste nesciunt perferendis commodi sit amet harum, dolorum inventore tenetur non iure, voluptas modi itaque dolorem unde recusandae dolore sed incidunt quidem totam accusamus facere porro placeat quas excepturi. Iure nesciunt maiores esse sit reiciendis consequatur minus tempore debitis obcaecati inventore mollitia sequi aperiam commodi nobis quasi rem tenetur quod temporibus, laborum, ex sint minima itaque nihil! Et eius soluta, magnam eos eaque ea dolor nesciunt fuga totam iusto ipsa voluptatum praesentium doloremque obcaecati, blanditiis dolores repudiandae sunt, quod minima temporibus odit hic incidunt nulla ab! Quidem, voluptatum. In illum autem veritatis magnam a quo, quas distinctio at cupiditate error quibusdam accusantium quaerat ullam molestiae fugit praesentium eveniet. Assumenda excepturi nobis quam animi officia, doloribus neque itaque fugiat temporibus, quae illum amet at, sequi aliquid debitis!
+        </p>
+        
+</div>
+    </main>
+<div class="footer">
+
+    <h3>
+        If you are thinking of buying our motorcycles feel free to contact us on our contact us page 
+        and buy on the buy here page
+    </h3>
+    <footer>
+        <p>© 2025 Rameez Motors. All rights reserved.</p>
+    </footer>
+</div>
+</body>
+
+</html>
